@@ -12,13 +12,13 @@ import { DataService } from './data.service';
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
-    HttpModule              // <-Add HttpModule
+    NavComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule              // <-Add HttpModule
   ],
-  providers: [DataService],
+  providers: [DataService], // <-Add DataService
   bootstrap: [AppComponent]
 })
 export class AppModule { }

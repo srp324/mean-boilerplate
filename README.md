@@ -3,7 +3,7 @@
 ## Steps to run
 
 ### 1) Start the MongoDB daemon process
-Run `mongod` to start the MongoDB daemon process. Test a connection by opening another terminal and running `mongo`. The 
+Run `mongod` to start the MongoDB daemon process. Test a connection by opening another terminal and running `mongo`. 
 
 ### 2) Build the project
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
